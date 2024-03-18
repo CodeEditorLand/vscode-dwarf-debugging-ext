@@ -13,7 +13,7 @@
     "build": "node build"
   },
   "engines": {
-    "vscode": "^1.83.0"
+    "vscode": "1.83.0"
   },
   "categories": [
     "Debuggers"
@@ -35,9 +35,9 @@
   },
   "homepage": "https://github.com/microsoft/vscode-dwarf-debugging-ext#readme",
   "dependencies": {
-    "@vscode/dwarf-debugging": "^0.0.2"
+    "@vscode/dwarf-debugging": "0.0.2"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.21.0"
+    "@vscode/vsce": "2.21.0"
   }
 }
