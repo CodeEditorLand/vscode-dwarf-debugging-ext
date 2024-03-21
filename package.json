@@ -1,41 +1,41 @@
 {
-	"name": "wasm-dwarf-debugging",
-	"displayName": "WebAssembly DWARF Debugging",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Enables enhanced WebAssembly debugging",
-	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"activationEvents": [],
+	"author": {
+		"email": "Hello@Playform.Cloud",
+		"name": "Playform",
+		"url": "https://playform.cloud"
+	},
 	"bugs": {
 		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"dependencies": {
+		"@vscode/dwarf-debugging": "0.0.2"
+	},
+	"description": "Enables enhanced WebAssembly debugging",
+	"devDependencies": {
+		"@vscode/vsce": "2.24.0",
+		"typescript-esbuild": ""
+	},
+	"displayName": "WebAssembly DWARF Debugging",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"icon": "./icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "index.js",
+	"name": "wasm-dwarf-debugging",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
 	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Playform",
-		"email": "Hello@Playform.Cloud",
-		"url": "https://playform.cloud"
-	},
-	"type": "module",
-	"main": "index.js",
 	"scripts": {
 		"build": "node build",
 		"pack": "npx vsce package --no-dependencies",
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
 		"vscode:prepublish": "node build"
 	},
-	"activationEvents": [],
-	"dependencies": {
-		"@vscode/dwarf-debugging": "0.0.2"
-	},
-	"devDependencies": {
-		"@vscode/vsce": "2.24.0",
-		"typescript-esbuild": "0.4.5"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"icon": "./icon.png"
+	"type": "module",
+	"version": "0.0.1"
 }
