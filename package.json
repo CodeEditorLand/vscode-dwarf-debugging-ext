@@ -1,27 +1,7 @@
 {
 	"name": "wasm-dwarf-debugging",
 	"displayName": "WebAssembly DWARF Debugging",
-	"version": "0.0.1",
-	"private": false,
 	"description": "Enables enhanced WebAssembly debugging",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandDwarfDebuggingExt#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandDwarfDebuggingExt/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandDwarfDebuggingExt.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🛬 Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"main": "index.js",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
@@ -32,11 +12,7 @@
 	"activationEvents": [],
 	"dependencies": {},
 	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
-	},
-	"publishConfig": {
-		"access": "public"
+		"@playform/build": "0.0.7"
 	},
 	"icon": "./icon.png"
 }
